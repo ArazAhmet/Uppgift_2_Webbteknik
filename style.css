@@ -34,6 +34,8 @@ div a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: background-color 0.5s;
+  transform: scale(1);
 }
 
 ul {
@@ -55,6 +57,7 @@ li {
 
 div a:hover {
   background-color: #111;
+  transform: scale(1.1);
 }
 
 div a:hover:not(.active) {
